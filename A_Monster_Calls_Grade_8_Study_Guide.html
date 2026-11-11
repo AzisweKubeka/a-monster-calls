@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Grade 8 study guide for A Monster Calls by Patrick Ness. Chapter summaries, characters, themes, symbols and revision quiz.">
+<title>A Monster Calls | Grade 8 Study Guide</title>
+<style>
+:root{--bg:#0b1514;--panel:#132321;--panel2:#192d29;--ink:#f3f0e6;--muted:#bdc9c0;--gold:#e5b765;--green:#8bb99a;--line:#345047;--red:#e99a87}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 15% 0%,#1b3930 0,transparent 38%),var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--gold)}
+header{padding:48px 20px 34px;max-width:1120px;margin:auto}
+.kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:800}
+h1{font-size:clamp(2.5rem,7vw,5.1rem);line-height:1.02;margin:12px 0}
+.subtitle{font-size:1.12rem;color:var(--muted);max-width:700px}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:center}
+.hero img{width:100%;height:310px;object-fit:cover;border-radius:22px;border:1px solid var(--line);box-shadow:0 18px 50px #0008}
+.meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.pill{border:1px solid var(--line);background:#13231f;padding:6px 12px;border-radius:999px;color:var(--muted);font-size:.88rem}
+nav{position:sticky;top:0;z-index:5;background:#0b1514ed;backdrop-filter:blur(12px);border-block:1px solid var(--line);padding:10px 16px}
+.navinner{max-width:1120px;margin:auto;display:flex;gap:8px;overflow:auto;white-space:nowrap}
+nav a{text-decoration:none;color:var(--muted);padding:7px 11px;border-radius:9px;font-size:.9rem}
+nav a:hover{background:var(--panel2);color:var(--ink)}
+main{max-width:1120px;margin:auto;padding:24px 20px 70px}
+section{scroll-margin-top:76px;margin:26px 0 42px}
+h2{font-size:clamp(1.6rem,4vw,2.25rem);margin:0 0 14px}
+h3{margin:0 0 8px;color:var(--gold);font-size:1.13rem}
+p{margin:8px 0;color:var(--muted)}
+.lead{font-size:1.08rem;color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.card{background:linear-gradient(145deg,var(--panel),#10201d);border:1px solid var(--line);border-radius:18px;padding:18px}
+.card p{margin:0}
+.storygrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.story{overflow:hidden;padding:0}
+.story img{width:100%;height:155px;object-fit:cover;display:block}
+.story .inside{padding:16px}
+.chapter-list{display:grid;gap:10px}
+.chapter{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.chapter summary{cursor:pointer;padding:14px 16px;font-weight:750;color:var(--ink);list-style:none;display:flex;gap:12px;align-items:center}
+.chapter summary::-webkit-details-marker{display:none}
+.chapter summary:after{content:"＋";margin-left:auto;color:var(--gold);font-size:1.2rem}
+.chapter[open] summary:after{content:"−"}
+.num{background:var(--panel2);color:var(--gold);border-radius:8px;padding:2px 9px;font-size:.85rem}
+.chapter .body{padding:0 18px 16px 54px;color:var(--muted)}
+.chapter .body ul{margin:4px 0;padding-left:18px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border-radius:14px;overflow:hidden}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--gold);background:var(--panel2)}
+td{color:var(--muted)}
+.symbols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.symbol{padding:14px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.symbol b{color:var(--gold);display:block}
+.timeline{counter-reset:step;display:grid;gap:10px}
+.timeline li{list-style:none;position:relative;padding:12px 14px 12px 52px;background:var(--panel);border:1px solid var(--line);border-radius:12px;color:var(--muted)}
+.timeline li:before{counter-increment:step;content:counter(step);position:absolute;left:13px;top:12px;background:var(--panel2);color:var(--gold);border-radius:50%;width:26px;height:26px;text-align:center;font-weight:800}
+.quizq{padding:17px;background:var(--panel);border:1px solid var(--line);border-radius:14px;margin:12px 0}
+.quizq legend{font-weight:750;padding:0 4px}
+label.option{display:block;padding:6px 8px;border-radius:8px;color:var(--muted);cursor:pointer}
+label.option:hover{background:var(--panel2)}
+button{border:0;background:var(--gold);color:#1c211b;font-weight:800;padding:12px 18px;border-radius:10px;cursor:pointer;font-size:1rem}
+button.secondary{background:var(--panel2);color:var(--ink);border:1px solid var(--line)}
+#result{margin-top:14px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);display:none}
+.small{font-size:.88rem;color:var(--muted)}
+.callout{border-left:4px solid var(--gold);padding:12px 16px;background:#1a2a24;border-radius:0 12px 12px 0;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:25px 20px;color:var(--muted);text-align:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero img{height:230px}.grid,.storygrid,.symbols{grid-template-columns:1fr}main{padding-inline:14px}header{padding:35px 16px 25px}.chapter .body{padding-left:18px}th,td{padding:10px;font-size:.92rem}}
+@media print{body{background:#fff;color:#111}.card,.chapter,table,.symbol,.timeline li{background:#fff;border-color:#bbb;color:#111}p,td,.chapter .body{color:#222}nav,button{display:none}.hero img{max-height:200px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <div>
+      <div class="kicker">Grade 8 English • Literature revision</div>
+      <h1>A Monster<br>Calls</h1>
+      <p class="subtitle">A clear, student-friendly guide to the novel by Patrick Ness — with chapter summaries, characters, themes, symbols and a revision quiz.</p>
+      <div class="meta"><span class="pill">By Patrick Ness</span><span class="pill">Inspired by an idea from Siobhan Dowd</span><span class="pill">Illustrated by Jim Kay</span></div>
+    </div>
+    <img src="https://de.web.img3.acsta.net/img/ce/00/ce00b945390ac8eda17d4c1744a64739.jpg" alt="A tree-like monster from the A Monster Calls film" onerror="this.src='https://www.teatroreal.es/sites/default/files/espectaculos/CabeceraWeb_1920x1200_REALJUNIOR_UnMonstruo.jpg'">
+  </div>
+</header>
+<nav><div class="navinner">
+<a href="#overview">Overview</a><a href="#chapters">All chapters</a><a href="#tales">The four tales</a><a href="#characters">Characters</a><a href="#themes">Themes</a><a href="#symbols">Symbols</a><a href="#events">Key events</a><a href="#quiz">Quiz</a><a href="#sources">Sources</a>
+</div></nav>
+<main>
+<section id="overview">
+<h2>1. The story in a nutshell</h2>
+<p class="lead"><b>Conor O'Malley</b> is a thirteen-year-old boy whose mother is seriously ill with cancer. He is frightened, lonely and struggling to understand what is happening to his family.</p>
+<p>At seven minutes past midnight, an ancient yew tree outside his home becomes a monster and visits him. The monster says it will tell Conor three stories. After those stories, Conor must tell a fourth story: the truth about his recurring nightmare.</p>
+<p>The novel explores grief, fear, guilt, love, friendship and accepting difficult truths. The monster is not simply there to frighten Conor; it pushes him to face feelings he has been hiding.</p>
+<div class="callout"><b>Main message:</b> People can have mixed feelings, even when they love someone. Being frightened, angry or confused does not make someone a bad person. Facing the truth can be painful, but it can help people begin to accept what is happening.</div>
+</section>
+
+<section id="chapters">
+<h2>2. Chapter-by-chapter summaries</h2>
+<p>Open each chapter to read a short Grade 8 summary. The chapter titles follow the contents list of the novel; page numbers can differ between editions.</p>
+<div class="chapter-list">
+<details class="chapter" open><summary><span class="num">1</span> A Monster Calls</summary><div class="body"><ul><li>Conor wakes after having the recurring nightmare about his mother.</li><li>At 12:07, the yew tree outside his house appears as a huge monster.</li><li>This monster is different from the frightening creature in his nightmare. It says it has come for the truth.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">2</span> Breakfast</summary><div class="body"><ul><li>Conor goes through his morning routine with his mother.</li><li>Her illness affects ordinary family life, and Conor notices how much she is struggling.</li><li>He is worried, even when they try to act as normally as possible.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">3</span> School</summary><div class="body"><ul><li>Conor goes to school while dealing with stress at home.</li><li>Harry and other boys bully him.</li><li>Conor feels isolated and does not know how to explain what he is experiencing.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">4</span> Life Writing</summary><div class="body"><ul><li>At school, Conor has difficulty focusing on his life-writing work.</li><li>His friendship with Lily is strained because she told other people about his mother's illness.</li><li>Conor feels exposed and betrayed, even though Lily may have meant to help.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">5</span> Three Stories</summary><div class="body"><ul><li>The monster visits Conor again and explains its challenge.</li><li>It will tell him three stories.</li><li>Afterwards, Conor must tell the monster his own story — the truth behind his nightmare.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">6</span> Grandma</summary><div class="body"><ul><li>Conor's grandmother becomes more involved in the family's life.</li><li>Conor finds her strict and dislikes the changes she brings.</li><li>He also senses tension between his mother and grandmother.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">7</span> The Wildness of Stories</summary><div class="body"><ul><li>The monster explains that stories are not always simple lessons with perfectly good or evil people.</li><li>People can have mixed motives and make complicated choices.</li><li>This prepares Conor to hear the first tale.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">8</span> The First Tale</summary><div class="body"><ul><li>The monster begins a story about a kingdom, a queen, a prince and a young woman from a humble background.</li><li>The story challenges the way people judge others from appearances and rumours.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">9</span> The Rest of the First Tale</summary><div class="body"><ul><li>The prince dies, and the queen is blamed.</li><li>The monster reveals that the story is not as simple as people first believe.</li><li>Conor is encouraged to question easy labels such as “good” and “evil”.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">10</span> Understanding</summary><div class="body"><ul><li>Conor struggles with the lesson of the first tale.</li><li>He wants clear answers about who is right and who is wrong.</li><li>The monster insists that human behaviour and truth can be complicated.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">11</span> Little Talk</summary><div class="body"><ul><li>Conor and his mother share a quieter moment together.</li><li>Their conversations show their love and closeness.</li><li>Conor is still anxious about her health and what may happen.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">12</span> Grandma's House</summary><div class="body"><ul><li>Conor spends time at his grandmother's home.</li><li>He dislikes the unfamiliar surroundings and her rules.</li><li>The chapter shows the tension between them and the changes happening in his life.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">13</span> Champ</summary><div class="body"><ul><li>Conor's school life continues to be difficult.</li><li>His experiences with Harry and the other boys add to his stress.</li><li>He is struggling to manage his emotions while his family situation remains uncertain.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">14</span> Americans Don't Get Much Holiday</summary><div class="body"><ul><li>Conor's father visits from America.</li><li>Conor hopes his father might offer a way out of his problems.</li><li>His father has a new family and cannot simply return to the role Conor wants him to fill.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">15</span> The Second Tale</summary><div class="body"><ul><li>The monster tells a story about an apothecary, who prepares medicines, and a parson, a church minister.</li><li>The apothecary wants to use a yew tree for medicine, but the parson refuses to let him.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">16</span> The Rest of the Second Tale</summary><div class="body"><ul><li>The parson's daughters become seriously ill.</li><li>The parson asks the apothecary for help, but the apothecary refuses because of the parson's earlier actions.</li><li>The tale explores consequences, hypocrisy and how actions can affect others.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">17</span> Destruction</summary><div class="body"><ul><li>The monster's story becomes connected to Conor's own anger.</li><li>Conor finds himself involved in the destruction of his grandmother's sitting room.</li><li>The damage shows how much frustration and distress he has been holding inside.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">18</span> Invisible</summary><div class="body"><ul><li>Conor feels that people do not really see or understand him.</li><li>His mother's illness makes him feel separate from other people.</li><li>His loneliness and frustration become stronger.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">19</span> Yew Trees</summary><div class="body"><ul><li>The yew tree's connection with healing and medicine becomes important.</li><li>Conor wonders whether the monster might be able to help his mother.</li><li>He begins to hope that the monster's power could change her situation.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">20</span> Could It Be?</summary><div class="body"><ul><li>Conor thinks more seriously about whether the monster can heal his mother.</li><li>He wants to believe that the monster has arrived to save her.</li><li>His hope shows how desperate he is for a different outcome.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">21</span> No Tale</summary><div class="body"><ul><li>Conor asks the monster whether it can heal his mother.</li><li>The monster does not promise that it can save her.</li><li>It reminds Conor that its purpose is to help him face the truth.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">22</span> I No Longer See You</summary><div class="body"><ul><li>Harry changes how he treats Conor and begins ignoring him.</li><li>Being ignored makes Conor feel even more invisible.</li><li>Lily also tries to reconnect with him.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">23</span> The Third Tale</summary><div class="body"><ul><li>The monster tells a story about an invisible man.</li><li>The invisible man becomes tired of nobody noticing him and calls for the monster.</li><li>The tale reflects Conor's own feeling that people do not see him.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">24</span> Punishment</summary><div class="body"><ul><li>Conor attacks Harry at school.</li><li>He is sent to the headteacher and struggles to explain his behaviour.</li><li>The incident makes people notice him, but not in the way he wants.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">25</span> A Note</summary><div class="body"><ul><li>Conor receives a note from Lily.</li><li>She explains that she misses their friendship and wants to make things better.</li><li>The note suggests that their friendship may be repaired.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">26</span> 100 Years</summary><div class="body"><ul><li>Conor's mother's condition continues to worry him.</li><li>He is caught between hoping for a recovery and fearing what may happen.</li><li>The pressure of waiting becomes harder for him to bear.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">27</span> What's the Use of You?</summary><div class="body"><ul><li>Conor's frustration and fear continue to grow.</li><li>He feels powerless because he cannot make his mother's illness go away.</li><li>He struggles with the painful reality that love cannot control everything.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">28</span> The Fourth Tale</summary><div class="body"><ul><li>The monster brings Conor into the nightmare he has been having.</li><li>In the nightmare, his mother is in danger and Conor tries to hold on to her.</li><li>The monster demands that Conor say what he really feels.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">29</span> The Rest of the Fourth Tale</summary><div class="body"><ul><li>Conor finally admits the truth he has been hiding.</li><li>Part of him wants the frightening waiting and suffering to end, even though he loves his mother.</li><li>He feels guilty, but the monster helps him understand that mixed feelings do not make him a bad person.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">30</span> Life After Death</summary><div class="body"><ul><li>The story focuses on the reality of loss and what comes after it.</li><li>Conor has to face the fact that he cannot control what happens to his mother.</li><li>The novel shows how difficult grief can be.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">31</span> Something in Common</summary><div class="body"><ul><li>Conor begins to understand his grandmother better.</li><li>They both love Conor's mother and are worried about her.</li><li>Their shared concern helps them move towards a better relationship.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">32</span> The Truth</summary><div class="body"><ul><li>Conor visits his mother in hospital.</li><li>He faces the truth about what is happening and expresses how much he loves her.</li><li>He begins to understand that he cannot save her, but he can stay with her and love her.</li></ul></div></details>
+<details class="chapter"><summary><span class="num">33</span> Last Page</summary><div class="body"><ul><li>Conor remains close to his mother.</li><li>The ending is emotional and focuses on love, grief and the beginning of acceptance.</li><li>Conor is no longer avoiding the truth in the same way.</li></ul></div></details>
+</div>
+</section>
+
+<section id="tales">
+<h2>3. The monster's stories explained</h2>
+<p>The three stories are not random. Each one teaches Conor something about people and connects to his own life.</p>
+<div class="storygrid">
+<article class="card story"><img src="https://focusmicrosites.s3.amazonaws.com/assets/uploads/1481054859_focusfeatures_amonstercalls_felicityjones_sigourneyweaver_jabayona__lewismacdougall_patrickness_social_insta_fx5.jpg" alt="Tree-like monster artwork" loading="lazy"><div class="inside"><h3>First tale — The Queen and the Prince</h3><p><b>Lesson:</b> People are not always what they seem. Do not judge a person only by rumours or appearances. The story challenges simple ideas of heroes and villains.</p></div></article>
+<article class="card story"><img src="https://www.teatroreal.es/sites/default/files/espectaculos/CabeceraWeb_1920x1200_REALJUNIOR_UnMonstruo.jpg" alt="Illustration of a giant tree-like monster" loading="lazy"><div class="inside"><h3>Second tale — The Apothecary and the Parson</h3><p><b>Lesson:</b> Actions have consequences. The parson rejects the apothecary, then later needs his help. The tale explores hypocrisy and the consequences of choices.</p></div></article>
+<article class="card story"><img src="https://img001.flimmo.de/besprechung/51/1356/l/image.jpg" alt="A boy facing the yew-tree monster" loading="lazy"><div class="inside"><h3>Third tale — The Invisible Man</h3><p><b>Lesson:</b> Being ignored can be painful. The invisible man wants people to notice him. This connects to Conor's loneliness and his feeling that nobody sees what he is going through.</p></div></article>
+</div>
+<div class="card" style="margin-top:14px"><h3>The fourth tale — Conor's truth</h3><p>Unlike the first three, this is Conor's own story. He admits that part of him wants the painful waiting and fear to end. He feels guilty because he loves his mother. The monster helps him understand that complicated feelings are human and do not cancel out his love.</p></div>
+</section>
+
+<section id="characters">
+<h2>4. Important characters</h2>
+<div class="grid">
+<div class="card"><h3>Conor O'Malley</h3><p>The main character, aged thirteen. He is dealing with his mother's illness, bullying, loneliness, anger and guilt. He learns to face the truth about his feelings.</p></div>
+<div class="card"><h3>The Monster</h3><p>An ancient creature connected to the yew tree. It tells Conor three stories and pushes him to tell the truth. It represents the need to face difficult feelings.</p></div>
+<div class="card"><h3>Conor's mother (Lizzie)</h3><p>She is seriously ill with cancer and loves Conor. Her illness is the main reason Conor is frightened and struggling emotionally.</p></div>
+<div class="card"><h3>Grandmother</h3><p>Strict and organised. Conor initially dislikes her, but she wants to help protect him and care for his mother. They gradually begin to understand one another.</p></div>
+<div class="card"><h3>Lily</h3><p>Conor's childhood friend. Their friendship becomes strained after she tells others about his mother's illness. She later tries to apologise and reconnect.</p></div>
+<div class="card"><h3>Harry</h3><p>A boy at Conor's school who bullies him. His treatment of Conor changes, and he is involved in an important turning point when Conor attacks him.</p></div>
+<div class="card"><h3>Conor's father</h3><p>He lives in America and has another family. He visits Conor, but cannot provide the simple solution or constant support that Conor hopes for.</p></div>
+</div>
+</section>
+
+<section id="themes">
+<h2>5. Important themes (big ideas)</h2>
+<table><thead><tr><th>Theme</th><th>What it means in the novel</th></tr></thead><tbody>
+<tr><td><b>Grief</b></td><td>Conor struggles with the possibility of losing his mother.</td></tr>
+<tr><td><b>Fear</b></td><td>He is frightened of his nightmare and of facing what may happen.</td></tr>
+<tr><td><b>Guilt</b></td><td>He feels guilty about having feelings he does not think he should have.</td></tr>
+<tr><td><b>Love</b></td><td>Conor and his mother love each other deeply, even during difficult moments.</td></tr>
+<tr><td><b>Loneliness</b></td><td>Conor feels isolated at school and at home because he thinks others do not understand.</td></tr>
+<tr><td><b>Acceptance</b></td><td>Conor gradually understands that he cannot control his mother's illness.</td></tr>
+<tr><td><b>Truth</b></td><td>The monster encourages Conor to be honest about his real feelings.</td></tr>
+<tr><td><b>Friendship</b></td><td>Lily's friendship with Conor is tested, but she tries to repair it.</td></tr>
+<tr><td><b>Family</b></td><td>Conor's relationships with his grandmother and father show different kinds of family support.</td></tr>
+</tbody></table>
+</section>
+
+<section id="symbols">
+<h2>6. Important symbols</h2>
+<div class="symbols">
+<div class="symbol"><b>The yew tree</b><span>Connected to healing, medicine, life and death. It is also the source of the monster.</span></div>
+<div class="symbol"><b>12:07</b><span>The repeated time when the monster appears. It links the visits to Conor's nightmare and the story's central truth.</span></div>
+<div class="symbol"><b>The nightmare</b><span>Represents Conor's deepest fear and the truth he finds difficult to admit.</span></div>
+<div class="symbol"><b>The monster</b><span>Represents the force that makes Conor confront his feelings instead of hiding from them.</span></div>
+<div class="symbol"><b>The stories</b><span>Teach lessons about complicated people, choices and emotions.</span></div>
+<div class="symbol"><b>Destruction</b><span>Shows how Conor's anger and emotional pressure can come out in actions.</span></div>
+</div>
+</section>
+
+<section id="events">
+<h2>7. Important events in order</h2>
+<p>Use this timeline to remember how the story develops from beginning to end.</p>
+<ol class="timeline">
+<li>Conor has a recurring nightmare about his mother.</li>
+<li>The yew-tree monster appears at 12:07.</li>
+<li>The monster says it will tell three stories and Conor must tell the fourth.</li>
+<li>Conor struggles with bullying at school.</li>
+<li>His friendship with Lily becomes strained.</li>
+<li>His grandmother becomes more involved in caring for the family.</li>
+<li>The monster tells the first tale about a queen and a prince.</li>
+<li>Conor's father visits from America but cannot give him the support he hopes for.</li>
+<li>The monster tells the second tale about an apothecary and a parson.</li>
+<li>Conor becomes involved in the destruction of his grandmother's sitting room.</li>
+<li>The monster tells the third tale about an invisible man.</li>
+<li>Conor attacks Harry at school.</li>
+<li>Lily tries to reconnect with Conor.</li>
+<li>Conor becomes more aware that his mother's condition is not improving as he hoped.</li>
+<li>Conor faces the nightmare and tells the monster the truth.</li>
+<li>He begins to understand that mixed feelings do not make him a bad person.</li>
+<li>Conor and his grandmother begin to understand each other better.</li>
+<li>Conor stays close to his mother and begins to accept what is happening.</li>
+</ol>
+</section>
+
+<section id="quiz">
+<h2>8. Grade 8 revision quiz</h2>
+<p>Choose one answer for each question, then press <b>Mark my quiz</b>. You can try again as many times as you like.</p>
+<form id="quizForm">
+<div class="quizq"><fieldset><legend>1. What time does the monster usually appear?</legend><label class="option"><input type="radio" name="q1" value="a"> 10:30</label><label class="option"><input type="radio" name="q1" value="b"> 12:07</label><label class="option"><input type="radio" name="q1" value="c"> 3:00</label><label class="option"><input type="radio" name="q1" value="d"> Midnight exactly</label></fieldset></div>
+<div class="quizq"><fieldset><legend>2. Which tree does the monster come from?</legend><label class="option"><input type="radio" name="q2" value="a"> Oak tree</label><label class="option"><input type="radio" name="q2" value="b"> Pine tree</label><label class="option"><input type="radio" name="q2" value="c"> Yew tree</label><label class="option"><input type="radio" name="q2" value="d"> Willow tree</label></fieldset></div>
+<div class="quizq"><fieldset><legend>3. How many stories does the monster tell Conor?</legend><label class="option"><input type="radio" name="q3" value="a"> One</label><label class="option"><input type="radio" name="q3" value="b"> Two</label><label class="option"><input type="radio" name="q3" value="c"> Three</label><label class="option"><input type="radio" name="q3" value="d"> Four</label></fieldset></div>
+<div class="quizq"><fieldset><legend>4. Who is Conor's childhood friend?</legend><label class="option"><input type="radio" name="q4" value="a"> Lily</label><label class="option"><input type="radio" name="q4" value="b"> Sully</label><label class="option"><input type="radio" name="q4" value="c"> Anton</label><label class="option"><input type="radio" name="q4" value="d"> Harry</label></fieldset></div>
+<div class="quizq"><fieldset><legend>5. What is one lesson of the first tale?</legend><label class="option"><input type="radio" name="q5" value="a"> Money solves everything</label><label class="option"><input type="radio" name="q5" value="b"> People are not always what they seem</label><label class="option"><input type="radio" name="q5" value="c"> Never trust friends</label><label class="option"><input type="radio" name="q5" value="d"> Always obey the king</label></fieldset></div>
+<div class="quizq"><fieldset><legend>6. What happens in the second tale?</legend><label class="option"><input type="radio" name="q6" value="a"> A prince becomes king</label><label class="option"><input type="radio" name="q6" value="b"> A parson refuses help from an apothecary</label><label class="option"><input type="radio" name="q6" value="c"> A boy becomes invisible</label><label class="option"><input type="radio" name="q6" value="d"> A monster saves a village</label></fieldset></div>
+<div class="quizq"><fieldset><legend>7. Who does Conor attack at school?</legend><label class="option"><input type="radio" name="q7" value="a"> Lily</label><label class="option"><input type="radio" name="q7" value="b"> His teacher</label><label class="option"><input type="radio" name="q7" value="c"> Harry</label><label class="option"><input type="radio" name="q7" value="d"> His father</label></fieldset></div>
+<div class="quizq"><fieldset><legend>8. What does Conor finally reveal?</legend><label class="option"><input type="radio" name="q8" value="a"> He wants to move to America</label><label class="option"><input type="radio" name="q8" value="b"> The truth about his nightmare and his feelings</label><label class="option"><input type="radio" name="q8" value="c"> He wants to leave school</label><label class="option"><input type="radio" name="q8" value="d"> He is afraid of his grandmother</label></fieldset></div>
+<div class="quizq"><fieldset><legend>9. What is a main message of the novel?</legend><label class="option"><input type="radio" name="q9" value="a"> Monsters are always evil</label><label class="option"><input type="radio" name="q9" value="b"> People must hide their feelings</label><label class="option"><input type="radio" name="q9" value="c"> People can have complicated feelings and must face the truth</label><label class="option"><input type="radio" name="q9" value="d"> Never trust anyone</label></fieldset></div>
+<button type="submit">Mark my quiz</button> <button type="button" class="secondary" id="resetQuiz">Try again</button>
+</form>
+<div id="result" aria-live="polite"></div>
+</section>
+
+<section id="sources">
+<h2>9. Sources and image credits</h2>
+<p>This study guide is written in simplified language for Grade 8 revision. It is a study aid, not a replacement for reading the novel. Chapter titles are checked against the published contents list; brief plot summaries are paraphrased.</p>
+<ul>
+<li><a href="https://patrickness.com/book/a-monster-calls/" target="_blank" rel="noopener">Patrick Ness — official book page</a> (book overview and background).</li>
+<li><a href="https://www.panmacmillan.co.za/books/a-monster-calls/9781406339345" target="_blank" rel="noopener">Pan Macmillan South Africa — A Monster Calls</a> (South African publisher listing and synopsis).</li>
+<li><a href="https://www.candlewick.com/9780763656331/a-monster-calls/" target="_blank" rel="noopener">Candlewick Press — A Monster Calls</a> (publisher description and creator information).</li>
+<li><a href="https://books.google.com/books?id=qdlIAgAAQBAJ&output=html_text" target="_blank" rel="noopener">Google Books — contents listing</a> (chapter-title reference).</li>
+<li>Header image: <a href="https://www.filmstarts.de/nachrichten/1000218015.html" target="_blank" rel="noopener">Filmstarts image result</a>. Story artwork: <a href="https://www.teatroreal.es/es/espectaculo/monstruo-viene-verme" target="_blank" rel="noopener">Teatro Real</a> and <a href="https://www.flimmo.de/besprechung/1356/sieben-minuten-nach-mitternacht" target="_blank" rel="noopener">FLIMMO</a>. Images remain the property of their respective owners and may require an internet connection to display.</li>
+</ul>
+<p class="small">Tip: Use your teacher's notes and your own copy of the book to check details, especially if your class edition uses different page numbers.</p>
+</section>
+</main>
+<footer><b>A Monster Calls • Grade 8 Study Guide</b><br>Read it. Understand it. Remember it. You’ve got this.</footer>
+<script>
+const answers={q1:"b",q2:"c",q3:"c",q4:"a",q5:"b",q6:"b",q7:"c",q8:"b",q9:"c"};
+const explanations={
+q1:"The monster appears at seven minutes past midnight — 12:07.",
+q2:"The monster is connected to the ancient yew tree.",
+q3:"The monster tells three stories. Conor must tell the fourth.",
+q4:"Lily is Conor's childhood friend.",
+q5:"The first tale challenges people to look beyond appearances and rumours.",
+q6:"The second tale is about the apothecary and the parson.",
+q7:"Conor attacks Harry at school.",
+q8:"Conor reveals the truth about his nightmare and his complicated feelings.",
+q9:"The novel explores grief, truth, love and accepting difficult feelings."
+};
+document.getElementById("quizForm").addEventListener("submit",function(e){
+ e.preventDefault();let score=0,missing=[];
+ Object.keys(answers).forEach(k=>{let chosen=this.querySelector('input[name="'+k+'"]:checked');if(!chosen)missing.push(k);else if(chosen.value===answers[k])score++;});
+ const box=document.getElementById("result");box.style.display="block";
+ if(missing.length){box.innerHTML="<b>Please answer all 9 questions first.</b>";return;}
+ let msg=score>=8?"Excellent work!":score>=6?"Good effort — revise the questions you missed.":"Keep practising — read the summaries again and try once more.";
+ box.innerHTML="<h3>Your score: "+score+" / 9 ("+Math.round(score/9*100)+"%)</h3><p>"+msg+"</p>"+Object.keys(answers).map((k,i)=>{let chosen=document.querySelector('input[name="'+k+'"]:checked');let ok=chosen.value===answers[k];return "<p><b>"+(i+1)+". "+(ok?"Correct ✓":"Not quite ✗")+"</b> — "+explanations[k]+"</p>";}).join("");
+ box.scrollIntoView({behavior:"smooth",block:"center"});
+});
+document.getElementById("resetQuiz").addEventListener("click",()=>{document.getElementById("quizForm").reset();document.getElementById("result").style.display="none";});
+</script>
+</body>
+</html>
